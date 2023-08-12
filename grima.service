@@ -1,0 +1,11 @@
+[Unit]
+Description=Grima Kills Chrom(e)
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/grima
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
