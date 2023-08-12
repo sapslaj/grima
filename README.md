@@ -2,6 +2,13 @@
 
 Kills Chrom(e)
 
+
+[![CI](https://github.com/sapslaj/grima/actions/workflows/ci.yaml/badge.svg)](https://github.com/sapslaj/grima/actions/workflows/ci.yaml)
+[![Coverage Status](https://coveralls.io/repos/github/sapslaj/grima/badge.svg?branch=main)](https://coveralls.io/github/sapslaj/grima?branch=main)
+[![GitHub release](https://img.shields.io/github/release/sapslaj/grima.svg)](https://github.com/sapslaj/grima/releases)
+[![go-doc](https://godoc.org/github.com/sapslaj/grima?status.svg)](https://godoc.org/github.com/sapslaj/grima)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sapslaj/grima)](https://goreportcard.com/report/github.com/sapslaj/grima)
+
 Grima lurks in the (systemd) shadows and if detects a process that might be Chrom(e) it tries to kill it. If it fails, it brings the whole world down with it.
 
 ## Installation
